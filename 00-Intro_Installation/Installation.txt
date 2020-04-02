@@ -1,0 +1,16 @@
+Windows Installation
+
+Latest version as on today - Python 3.7.x
+
+Download Installer
+    URL -
+
+Installation Steps:
+
+
+Install location & Files
+
+Python packages
+
+
+Virtual environment
