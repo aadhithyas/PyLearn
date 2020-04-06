@@ -1,9 +1,0 @@
-Python
-What is Python?
-    Programming language
-
-How can i use python?
-    As a network engineer,basically for network automations.
-    A bit advanced use case, give a GUI to the network automation
-
-Two versions exist - Go with Python 3

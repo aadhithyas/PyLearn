@@ -1,16 +1,3 @@
-Windows Installation
-
-Latest version as on today - Python 3.7.x
-
-Download Installer
-    URL -
-
-Installation Steps:
 
 
-Install location & Files
-
-Python packages
-
-
-Virtual environment
+    Please refer to "Getting Started" section in the shared OneNote notebook for System setup and Installation
