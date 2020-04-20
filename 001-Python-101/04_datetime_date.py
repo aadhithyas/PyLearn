@@ -23,7 +23,7 @@ time_diff = timedelta(days=N, hours=0, minutes=0)
 date_N_days_ago = curr_datetime - time_diff
 print("Date", N, "days ago is", date_N_days_ago.strftime("%d-%B-%Y"))
 
-# Date N days ago
+# Date N days after
 N = 5
 time_diff = timedelta(days=N, hours=0, minutes=0)
 
