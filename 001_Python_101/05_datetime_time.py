@@ -3,6 +3,7 @@ from datetime import datetime, timedelta
 # datetime object
 curr_datetime = datetime.now()
 curr_time = curr_datetime.time()
+print("Current time:", curr_time)
 print("Current time:", curr_time.strftime("%H:%M:%S"))
 
 # Time N hours ago

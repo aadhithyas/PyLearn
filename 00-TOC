@@ -1,6 +1,10 @@
+Table of Contents:
+------------------
+
 000-Intro_Installation
     - Python Introduction
     - Instruction regarding Python Installation and System setup
+
 001-Python-101
     - Print Function
     - Variables
@@ -8,6 +12,8 @@
     - Date and Time
     - OS Path
     - OS File
+    - Argument Parser
+
 002_Data_Types
     - Integer (binary conversion)
     - Float
@@ -16,10 +22,12 @@
     - Set
     - Range
     - Dictionary
+
 003_Loop_Conditional
     - if, elif, else
     - while
     - for
+
 004_Text_Processing
     - Regular Expression
     - TextFSM
