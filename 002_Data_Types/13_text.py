@@ -19,7 +19,7 @@ interface GigabitEthernet0/1
 """
 print("\nYour multi-line text:", interface_config)
 
-# convert text to list
+# convert text to list - each line becomes an item in the list
 interface_config_list = interface_config.splitlines()
 print("Text to list:", interface_config_list)
 
