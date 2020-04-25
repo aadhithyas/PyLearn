@@ -28,9 +28,6 @@ print("Next VLAN ID is {}".format(vlan_id + 1))
 print("Previous VLAN ID is {}".format(vlan_id - 1))
 
 # try other Arithmetic operations by yourselves
-
-
-
 '''
 Following Assignment Operators
 ------------------------------
