@@ -7,10 +7,10 @@ interface = {'name': 'GigabitEthernet0/2', 'mode': 'trunk', 'vlan': [10, 20, 30]
 # let's check the items() method for dictionary
 interface_items = interface.items()
 print("Dictionary items:", interface_items)
-print("items() method produce Tuples in a list")
+print("\t---> items() method produce Tuples in a list")
 
 # loop through items in the list
-print("\nIterating through dictionary...")
+print("\n---> Iterating through dictionary...")
 for key, value in interface.items():
     print("key:", key, " - value:", value)
 
