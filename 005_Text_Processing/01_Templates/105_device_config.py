@@ -6,7 +6,7 @@ import yaml
 from pprint import pprint
 
 # input parameters from yaml file
-with open('105_input.yml', 'r') as stream:
+with open('inputs/105_input.yml', 'r') as stream:
 	CfgInput = yaml.load(stream)
 pprint(CfgInput)
 print('\n')
