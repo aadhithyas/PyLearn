@@ -71,6 +71,17 @@ interfaces = {"iface1": interface_1, "iface2": interface_2, "iface3": interface_
 print("\n Nested Interfaces Dict:")
 pprint(interfaces)
 
+# merging two dictionary
+mode_access = {'mode': 'access', 'vlan': '', 'portfast_enabled': True }
+mode_trunk = {'mode': 'trunk', 'vlan': [], 'portfast_enabled': False }
+interface_5 = {'name': 'GigabitEthernet0/5'}
+
+# merge dictionaries
+interface_5 = dict(**interface_5, **mode_access)
+interface_5['vlan'] = 50
+print("\n Dict created by merging 2 dictionaries:", interface_5)
+
+
 # follow-ups: using conditionals
 #   Check if a key exist in a dict
 #   Check if a dict is empty
