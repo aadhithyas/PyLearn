@@ -7,7 +7,7 @@ from pprint import pprint
 # positional arguments
 #   - IP address
 #   - Prefix Length
-# Process the Inputs give and find the following
+# Process the Inputs given and find the following
 #   - Netmask / Network / IP Address Type
 def analyze_ip(ip, prefix_len):
     """ Function documentation string: Function to analyze the given IP and prefix length."""
@@ -41,7 +41,7 @@ if __name__ == "__main__":
     interface_ip  = input("Enter your IP Address:")
     cidr = input("Enter the CIDR / Prefix Length:")
 
-    # call the function by its name
+    # call the function by its name - The function returns a result
     # Positional argument
     #   - first argument - IP address
     #   - second argument - cidr

@@ -1,9 +1,16 @@
-# let's look at an example for 'if' conditional
+"""
+If/ Else conditions are used to decide to do something based on something being true or false
+let's look at an example for 'if' conditional
+Comparison Operators (==, !=, >, <, >=, <=) - Used to compare values
+Logical operators (and, or, not) - Used to combine conditional statements
+Membership Operators (in, not in) - Membership operators are used to test if a sequence is presented in an object
+Identity Operators (is, is not) - Compare the objects, not if they are equal, but if they are actually the same object, with the same memory location:
+"""
 
 # single = is used for assigning value to a variable
 interface = {"name": "GigabitEthernet0/1", "vlanId": 10}
 
-# add "mode" to interface_1 dictionary
+# add "mode" to interface dictionary
 # change this value to check the variation of code output
 #   - access
 #   - trunk
@@ -32,18 +39,3 @@ else:
 
 # print the modified interface dictionary
 print("\nInterface dictionary:", interface)
-
-
-# following operators can be used as conditions in 'if' statement
-"""
-Relational Operators
---------------------
-    ==      equals to
-    !=      not equal to
-    >       greater than
-    <       less than
-    >=      greater than or equal to
-    <=      less than or equal to
-    in      Membership
-    is      Identity
-"""

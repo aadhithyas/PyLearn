@@ -1,3 +1,7 @@
+# A sample program to get the number of days in a month
+# Uses function to get the result
+
+
 # Number of days per month. First value is placeholder for indexing purposes.
 month_days = [0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 

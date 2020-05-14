@@ -1,6 +1,6 @@
 # tuple
 
-# type of vlan_id
+# tuple of vlan_id
 vlan_id = (10, 12, 14, 16)
 print("VLAN ID tuple:", vlan_id)
 print("Type of VLAN ID is:", type(vlan_id))

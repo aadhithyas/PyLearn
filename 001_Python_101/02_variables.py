@@ -1,5 +1,13 @@
+# A variable is a container for a value. The value can be of various types
+#   - String / Integer / Float etc.,
+"""
+VARIABLE RULES:
+  - Variable names are case sensitive (name and NAME are different variables)
+  - Must start with a letter or an underscore
+  - Can have numbers but can not start with one
+"""
 # Let's define few variables here
-# We are just defining a name to the variable and assigning a value to it directly
+# We can just define a variable and start assigning a value to it directly
 # Python automatically will identity the type of the data
 
 
@@ -16,7 +24,6 @@ vlan_id  = 10
 print("Data type of host_name variable is {}".format(type(host_name)))
 print("Data type of port_number variable is {}".format(type(port_number)))
 print("Data type of vlan_id variable is {}".format(type(vlan_id)))
-
 
 # Let's print the value of these variables
 print("\n") # next line - One line spacing
